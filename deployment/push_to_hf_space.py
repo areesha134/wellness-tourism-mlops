@@ -9,7 +9,7 @@ from huggingface_hub import HfApi, create_repo, upload_file, login
 # Configuration - UPDATE THESE VALUES
 HF_TOKEN = os.environ.get("HF_TOKEN", "your_hf_token")
 HF_USERNAME = "mahi134"
-SPACE_REPO = f"{HF_USERNAME}/wellness-tourism-app"
+SPACE_REPO = f"{HF_USERNAME}/wellness-tourism-application"
 
 def main():
     # Login to Hugging Face

@@ -9,7 +9,7 @@ from huggingface_hub import login, create_repo, upload_file
 def main():
     HF_TOKEN = os.environ.get("HF_TOKEN")
     HF_USERNAME = os.environ.get("HF_USERNAME", "your_username")
-    SPACE_REPO = f"{HF_USERNAME}/wellness-tourism-app"
+    SPACE_REPO = f"{HF_USERNAME}/wellness-tourism-application"
 
     login(token=HF_TOKEN)
 
